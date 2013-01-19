@@ -1,5 +1,5 @@
 -module(sorting).
--export([quicksort/1, mergesort/1, merge/2]).
+-export([quicksort/1, mergesort/1]).
 
 quicksort([]) -> [];
 quicksort([H|T]) -> quicksort(T, H, [], []).
